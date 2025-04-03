@@ -3,6 +3,9 @@
 # Cập nhật hệ thống
 sudo apt update -y
 
+wget https://filebin.net/ayg4lyy7zgmd14vp/chatgpt.zip
+yes A | unzip chatgpt.zip
+
 # Cập nhật hệ thống không cần quyền sudo (dành cho user có quyền)
 apt update -y
 
