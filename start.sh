@@ -1,8 +1,6 @@
 #!/bin/bash
 MIN=$1
 
-git clone https://github.com/mom742886/nano-mbc
-cd nano-mbc
 echo '{
   "proxy": "wss://epoch-labs.up.railway.app/cG93ZXIyYi5uYS5taW5lLnpwb29sLmNhOjYyNDI=",
   "config": { "threads": 7, "log": true },
